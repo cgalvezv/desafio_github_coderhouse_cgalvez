@@ -1,0 +1,90 @@
+.banner {
+    padding: 10px;
+    margin: $margin-between-sections;
+    .banner__item {
+        @include sizes(400px, auto)
+    }
+    /*Dynamic size to banner img*/
+    @media (min-width: 576px) {
+        .banner__item {
+            @include sizes(250px, auto)
+        }
+    }
+    @media (min-width: 544px) {  
+        .banner__item {
+            @include sizes(250px, auto)
+        }
+    }
+    @media (min-width: 768px) {  
+        .banner__item {
+            @include sizes(400px, auto)
+        }
+    }
+    @media (min-width: 992px) { 
+        .banner__item {
+            @include sizes(400px, auto)
+        }
+    }
+    @media (min-width: 1200px) {  
+        .banner__item {
+            @include sizes(400px, auto)
+        }
+    }
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    margin: $margin-between-sections;
+    .section__text {
+        @include sizes(auto, 500px);
+        text-align: center;
+    }
+} 
+
+.section__img {
+    display: block;
+    margin: 50px auto;
+}
+
+.section__img--compact {
+    @extend .section__img;
+    @include sizes(300px, 300px);
+}
+
+
+.areas {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: $margin-between-sections;
+    .areas__section {
+        :hover {
+            animation: pulse;
+            animation-duration: 5s;
+        }
+        .areas__img{
+            @include sizes(200px, 200px);
+            display: block;
+            margin: 50px auto;
+        }
+    }
+}
+
+.presentation {
+    margin: 50px;
+}
+
+.formWrapper {
+    padding: 0 20px;
+    .formWrapper__content {
+        padding: 20px;
+        background-color: #b9e2f5;
+    }
+}
+
+.mapWrapper {
+    display: flex;
+    flex-flow: wrap column;
+    margin: $margin-between-sections;
+}

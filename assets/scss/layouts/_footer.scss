@@ -1,0 +1,36 @@
+.footer {
+    background-image: linear-gradient(to top, $footer-color, $body-color);
+    color: white;
+    padding: 50px 100px;
+    .footer--margin {
+        margin-top: 80px;
+        margin-bottom: 0;
+        .footer__form {
+            .footer__form--title {
+                color: $title-color;
+            }
+            form {
+                .footer__form--field {
+                    margin: 10px 0;
+                    .footer__form--label {
+                        color: $label-color;
+                    }
+                    .footer__form--input{
+                        @include sizes(auto, 100%);
+                    }
+                    .footer__form--textarea{
+                        @include sizes(auto, 100%);
+                    }
+                }
+            }
+        }
+        .footer__img {
+            margin-top: auto;
+            margin-bottom: auto;
+            :hover {
+                animation: pulse;
+                animation-duration: 5s;
+            }
+        }
+    } 
+}

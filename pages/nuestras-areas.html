@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Vanguardia Asesoría Integral</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="../assets/css/myStyles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Varela+Round&family=Yanone+Kaffeesatz:wght@300&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #b9e2f5;">
+                <!--Logo-->
+                <a class="navbar-brand" href="../index.html">
+                    <img class="logoHeader" src="https://www.qbrobotics.com/wp-content/uploads/2018/03/sample-logo-170x150.png" alt="Logo header">
+                </a>
+                <!-- Collapse Menú Button-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Menú -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./quienes-somos.html">¿Quienes sómos?</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./que-hacemos.html">¿Que hacemos?</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="./nuestras-areas.html">Nuestras áreas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contactanos.html">Contactanos</a></li>
+                  </ul>
+                  <div class="rrss text-center">
+                      <a href="www.facebook.com">
+                          <img src="../assets/icon/facebook.png" alt="Facebook icon">
+                      </a>
+                      <a href="www.instagram.com">
+                          <img src="../assets/icon/instagram.png" alt="Instagram icon">
+                      </a>
+                  </div> 
+                </div>
+            </nav>
+        </header>
+        <!-- Body Areas -->
+        <div class="areas-mainWrapper">
+            <div class="presentationPage">
+                <h1 class="title">Las áreas que abarcamos</h1>
+                <p class="descriptionText">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
+                    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
+                    Lorem Ipsum passages, 
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>
+            <div class="areas-table">
+                <table class="table">
+                    <tr>
+                        <th>Área</th>
+                        <th>Descripción</th>
+                        <th>Encargado</th>
+                        <th>E-Mail contacto</th>
+                    </tr>
+                    <tr>
+                        <td>Área 1</td>
+                        <td>
+                            <ol class="listInTable">
+                                <li>Caracteriztica 1</li>
+                                <li>Caracteriztica 2</li>
+                                <li>Caracteriztica 3</li>
+                                <li>Caracteriztica 4</li>
+                            </ol>
+                        </td>
+                        <td>Fulanito Talporcual</td>
+                        <td>flanito@vanguardia.cl</td>
+                    </tr>
+                    <tr>
+                        <td>Área 2</td>
+                        <td>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
+                            Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced 
+                            in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                        </td>
+                        <td>Fabia Rojas</td>
+                        <td>fabia@vanguardia.cl</td>
+                    </tr>
+                    <tr>
+                        <td>Área 3</td>
+                        <td>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
+                            Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced 
+                            in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                        </td>
+                        <td>Camilo Gálvez</td>
+                        <td>camilo@vanguardia.cl</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!-- Footer trabaja con nosotros -->
+        <footer>
+            <div class="sectionWrapper row">
+                <div class="col-sm-12 col-md-5">
+                    <h4 class="title">¿Quieres trabajar con nosotros?</h4>
+                    <form action="/form-work-with-us.php" method="post">
+                        <div class="formField">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name">
+                        </div>
+                        <div class="formField">
+                            <label for="email">E-Mail</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="formField">
+                            <textarea name="description" id="description" cols="30" rows="10" placeholder="Cuentanos de ti..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary"><i class="icon-thumbs-up icon-white"></i> Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-2 d-sm-none"></div>
+                <img class="col-sm-12 col-md-5 img-fluid" src="../assets/img/join-us.png" alt="Imagen trabaja con nosotros">
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>      
+    </body>
+</html>

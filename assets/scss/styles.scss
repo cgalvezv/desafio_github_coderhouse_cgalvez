@@ -1,0 +1,23 @@
+$body-color: #dcf0fa;
+$header-color: #b9e2f5;
+$footer-color: #50b8e7;
+$title-color: #20639b;
+$subtitle-color: #49757f;
+$label-color: #3465a4;
+$description-text-color: #173f5f;
+$margin-between-sections: 50px 0;
+
+@mixin sizes($h, $w) {
+    height: $h;
+    width: $w;
+}
+
+body {
+    background-color: $body-color;
+    margin: 0;
+    @import './layouts/header';
+    @import './layouts/sections';
+    @import './layouts/footer';
+    @import './components/texts';
+}
+

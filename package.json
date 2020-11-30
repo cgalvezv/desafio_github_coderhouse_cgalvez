@@ -1,0 +1,17 @@
+{
+  "name": "coderhouse-web-developer-cgv",
+  "version": "1.0.0",
+  "description": "Final project to web developer course in CoderHouse",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss assets/scss/styles.scss assets/css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Camilo Gálvez Vidal",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.6"
+  }
+}

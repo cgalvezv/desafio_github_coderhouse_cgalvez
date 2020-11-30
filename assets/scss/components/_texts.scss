@@ -1,0 +1,24 @@
+.title {
+    color: $title-color;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subtitle {
+    border-top: solid 1px black;
+    padding: 10px 0;
+    color: $subtitle-color;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.descriptionText {
+    color: $description-text-color;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+}

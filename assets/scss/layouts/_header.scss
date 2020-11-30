@@ -1,0 +1,24 @@
+.header {
+    background-color: $header-color;
+    .header__logo {
+        @include sizes(auto, 100px);
+        margin-left: 10px;
+        height: 80px;
+    }
+
+    .header__menuItem {
+        text-transform: capitalize;
+    }
+    
+    .header__menuItem:hover {
+        text-transform: uppercase;
+        text-emphasis: initial;
+    }
+    
+    .header__rrss {
+        margin: 20px;
+        img{
+            margin-left: 10px;
+        }
+    }
+}

@@ -12,6 +12,14 @@ $margin-between-sections: 50px 0;
     width: $w;
 }
 
+@mixin margin_two_values($h, $v) {
+    margin: $h $v;
+}
+
+@mixin padding_two_values($h, $v) {
+    padding: $h $v;
+}
+
 body {
     background-color: $body-color;
     margin: 0;

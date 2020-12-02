@@ -2,19 +2,10 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <!-- INIT: Encabezados Desafío SEO -->
-        <meta name="keywords" content="VANGUARDIA, ASESORÍA, INTEGRAL, LEGAL, ABOGADOS, DEFENSA, LEYES, SOFTWARE,
-        DESARROLLO, SEGURIDAD, INFORMATICA, PSICOLOGIA, PSICO LABORAL, AYUDA, EMPRESAS, AUDITORIA, SOPORTE, TÉCNICO,
-        TEST, RECURSOS">
-        <title>Vanguardia Asesoría Integral - Asesorías profesionales a PYMES</title>
-        <meta name="description" content="Ofrecemos asesorías de alto nivel a pequeñas y medianas empresas. 
-        Tenemos a los mejores profesionales de la región, que se enfocarán a ayudarte en el ámbito legal,
-        informático y psicológico">
-        <!-- END: Encabezados Desafío SEO -->
+        <title>Vanguardia Asesoría Integral</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-        <link rel="stylesheet" href="../assets/css/myStyles.css">
         <link rel="stylesheet" href="../assets/css/styles.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Varela+Round&family=Yanone+Kaffeesatz:wght@300&display=swap">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -35,8 +26,8 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto text-center">
                     <li class="nav-item"><a class="nav-link header__menuItem" href="../index.html">Inicio</a></li>
-                    <li class="nav-item active"><a class="nav-link header__menuItem" href="./quienes-somos.html">¿Quienes sómos?</a></li>
-                    <li class="nav-item"><a class="nav-link header__menuItem" href="./que-hacemos.html">¿Que hacemos?</a></li>
+                    <li class="nav-item"><a class="nav-link header__menuItem" href="./quienes-somos.html">¿Quienes sómos?</a></li>
+                    <li class="nav-item active"><a class="nav-link header__menuItem" href="./que-hacemos.html">¿Que hacemos?</a></li>
                     <li class="nav-item"><a class="nav-link header__menuItem" href="./nuestras-areas.html">Nuestras áreas</a></li>
                     <li class="nav-item"><a class="nav-link header__menuItem" href="./contactanos.html">Contáctanos</a></li>
                 </ul>
@@ -52,7 +43,7 @@
             </nav>
         </header>
         <!-- Body que hacemos -->
-        <div class="servicesWrapper">
+        <div id="services-content">
             <div class="presentation">
                 <h1 class="title">¿Cómo te ayudamos?</h1>
                 <p class="descriptionText">
@@ -64,48 +55,60 @@
                     and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
             </div>
-            <div id="services">
-                <div class="servicesSection">
-                    <img src="../assets/icon/service-1.png" alt="Imagen servicio 1">
-                    <div>
-                        <h4 class="title">Asesorías</h4>
-                        <p class="descriptionText"> The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
-                            Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced 
-                            in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-                        </p>
-                    </div>
-                </div> 
-                <div class="servicesSection">
-                    <img src="../assets/icon/service-2.png" alt="Imagen servicio 2">
-                    <div>
-                        <h4 class="title">Desarrollo de Productos</h4>
-                        <p class="descriptionText">
-                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
-                            Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced 
-                            in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-                        </p>
-                    </div>
-                </div>
-                <div class="servicesSection">
-                    <img src="../assets/icon/service-3.png" alt="Imagen servicio 3">
-                    <div>
-                        <h4 class="title">Soporte durante el proceso</h4>
-                        <p class="descriptionText">
-                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
-                            Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced 
-                            in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-                        </p>
+            <div class="services">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="services__section">
+                            <img class="services__img" src="../assets/icon/service-1.png" alt="Imagen servicio 1">
+                            <div>
+                                <h4 class="title">Asesorías</h4>
+                                <p class="descriptionText"> The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
+                                    Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced 
+                                    in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                                </p>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-sm-12 col-md-6">
+                        <div class="services__section">
+                            <img class="services__img" src="../assets/icon/service-2.png" alt="Imagen servicio 2">
+                            <div>
+                                <h4 class="title">Desarrollo de Productos</h4>
+                                <p class="descriptionText">
+                                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
+                                    Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced 
+                                    in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="servicesSection">
-                    <img src="../assets/icon/service-4.png" alt="Imagen servicio 4">
-                    <div>
-                        <h4 class="title">Marketing digital</h4>
-                        <p class="descriptionText">
-                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
-                            Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced 
-                            in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-                        </p>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="services__section">
+                            <img class="services__img" src="../assets/icon/service-3.png" alt="Imagen servicio 3">
+                            <div>
+                                <h4 class="title">Soporte durante el proceso</h4>
+                                <p class="descriptionText">
+                                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
+                                    Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced 
+                                    in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="services__section">
+                            <img class="services__img" src="../assets/icon/service-4.png" alt="Imagen servicio 4">
+                            <div>
+                                <h4 class="title">Marketing digital</h4>
+                                <p class="descriptionText">
+                                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
+                                    Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced 
+                                    in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -131,7 +134,7 @@
                     </form>
                 </div>
                 <div class="col-md-2 d-sm-none d-md-block"></div>
-                <img class="footer__img col-md-5 d-sm-none d-md-block img-fluid" src="../assets/img/join-us.png" alt="Imagen trabaja con nosotros">
+                <img class="footer__img col-md-4 d-sm-none d-md-block img-fluid" src="../assets/img/join-us.png" alt="Imagen trabaja con nosotros">
             </div>
         </footer>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

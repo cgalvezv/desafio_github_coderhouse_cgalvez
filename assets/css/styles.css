@@ -18,17 +18,17 @@ body {
       body .header .header__rrss img {
         margin-left: 10px; }
   body .banner {
-    padding: 10px;
+    padding: 10px 0;
     margin: 50px 0;
     /*Dynamic size to banner img*/ }
     body .banner .banner__item {
       height: 400px;
       width: auto; }
-    @media (min-width: 576px) {
+    @media (min-width: 575.98px) {
       body .banner .banner__item {
         height: 250px;
         width: auto; } }
-    @media (min-width: 544px) {
+    @media (min-width: 576px) {
       body .banner .banner__item {
         height: 250px;
         width: auto; } }
@@ -57,7 +57,7 @@ body {
     margin: 50px auto; }
   body .section__img--compact {
     height: 300px;
-    width: 300px; }
+    width: auto; }
   body .areas {
     display: flex;
     flex-flow: row wrap;
@@ -111,12 +111,13 @@ body {
   body .footer {
     background-image: linear-gradient(to top, #50b8e7, #dcf0fa);
     color: white;
-    padding: 50px 100px; }
+    padding: 50px 50px; }
     body .footer .footer--margin {
       margin-top: 80px;
       margin-bottom: 0; }
       body .footer .footer--margin .footer__form .footer__form--title {
-        color: #20639b; }
+        color: #000000;
+        font-family: 'Hind Siliguri', sans-serif; }
       body .footer .footer--margin .footer__form form {
         margin: 20px 20px; }
         body .footer .footer--margin .footer__form form .footer__form--field {
@@ -133,12 +134,33 @@ body {
       body .footer .footer--margin .footer__img {
         height: 300px;
         width: auto;
-        margin: auto auto; }
+        margin: auto auto;
+        /*Dynamic size to banner img*/ }
+        @media (min-width: 575.98px) {
+          body .footer .footer--margin .footer__img .banner__item {
+            height: 250px;
+            width: auto; } }
+        @media (min-width: 576px) {
+          body .footer .footer--margin .footer__img .banner__item {
+            height: 250px;
+            width: auto; } }
+        @media (min-width: 768px) {
+          body .footer .footer--margin .footer__img .banner__item {
+            height: 400px;
+            width: auto; } }
+        @media (min-width: 992px) {
+          body .footer .footer--margin .footer__img .banner__item {
+            height: 400px;
+            width: auto; } }
+        @media (min-width: 1200px) {
+          body .footer .footer--margin .footer__img .banner__item {
+            height: 400px;
+            width: auto; } }
         body .footer .footer--margin .footer__img :hover {
           animation: pulse;
           animation-duration: 5s; }
   body .title {
-    color: #20639b;
+    color: #000000;
     font-family: 'Hind Siliguri', sans-serif;
     font-size: 40px;
     text-transform: uppercase;
@@ -155,4 +177,5 @@ body {
     color: #173f5f;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     letter-spacing: 1px;
-    font-size: 20px; }
+    font-size: 20px;
+    text-align: center; }

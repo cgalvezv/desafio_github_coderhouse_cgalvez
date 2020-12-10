@@ -1,13 +1,14 @@
 .footer {
     background-image: linear-gradient(to top, $footer-color, $body-color);
     color: white;
-    @include padding_two_values(50px, 100px);
+    @include padding_two_values(50px, 50px);
     .footer--margin {
         margin-top: 80px;
         margin-bottom: 0;
         .footer__form {
             .footer__form--title {
                 color: $title-color;
+                font-family: 'Hind Siliguri', sans-serif;
             }
             form {
                 @include margin_two_values(20px, 20px);
@@ -29,6 +30,32 @@
         .footer__img {
             @include sizes(300px, auto);
             @include margin_two_values(auto, auto);
+            /*Dynamic size to banner img*/
+            @media (min-width: 575.98px) {
+                .banner__item {
+                    @include sizes(250px, auto)
+                }
+            }
+            @media (min-width: 576px) {  
+                .banner__item {
+                    @include sizes(250px, auto)
+                }
+            }
+            @media (min-width: 768px) {  
+                .banner__item {
+                    @include sizes(400px, auto)
+                }
+            }
+            @media (min-width: 992px) { 
+                .banner__item {
+                    @include sizes(400px, auto)
+                }
+            }
+            @media (min-width: 1200px) {  
+                .banner__item {
+                    @include sizes(400px, auto)
+                }
+            }
             :hover {
                 animation: pulse;
                 animation-duration: 5s;

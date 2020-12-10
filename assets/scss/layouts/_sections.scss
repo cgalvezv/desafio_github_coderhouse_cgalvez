@@ -1,16 +1,16 @@
 .banner {
-    padding: 10px;
+    padding: 10px 0;
     margin: $margin-between-sections;
     .banner__item {
         @include sizes(400px, auto)
     }
     /*Dynamic size to banner img*/
-    @media (min-width: 576px) {
+    @media (min-width: 575.98px) {
         .banner__item {
             @include sizes(250px, auto)
         }
     }
-    @media (min-width: 544px) {  
+    @media (min-width: 576px) {  
         .banner__item {
             @include sizes(250px, auto)
         }
@@ -49,7 +49,7 @@
 
 .section__img--compact {
     @extend .section__img;
-    @include sizes(300px, 300px);
+    @include sizes(300px, auto);
 }
 
 

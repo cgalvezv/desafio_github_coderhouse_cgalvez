@@ -124,7 +124,7 @@ body {
           margin: 10px 0; }
           body .footer .footer--margin .footer__form form .footer__form--field .footer__form--label {
             color: #3465a4;
-            font-family: 'Yanone Kaffeesatz', sans-serif; }
+            font-weight: 700; }
           body .footer .footer--margin .footer__form form .footer__form--field .footer__form--input {
             height: auto;
             width: 100%; }
@@ -132,8 +132,8 @@ body {
             height: auto;
             width: 100%; }
       body .footer .footer--margin .footer__img {
-        height: 300px;
-        width: auto;
+        height: auto;
+        width: 300px;
         margin: auto auto;
         /*Dynamic size to banner img*/ }
         @media (min-width: 575.98px) {

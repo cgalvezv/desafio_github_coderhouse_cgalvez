@@ -16,7 +16,7 @@
                     @include margin_two_values(10px, 0);
                     .footer__form--label {
                         color: $label-color;
-                        font-family: 'Yanone Kaffeesatz', sans-serif;
+                        font-weight: 700;
                     }
                     .footer__form--input{
                         @include sizes(auto, 100%);
@@ -28,7 +28,7 @@
             }
         }
         .footer__img {
-            @include sizes(300px, auto);
+            @include sizes(auto, 300px);
             @include margin_two_values(auto, auto);
             /*Dynamic size to banner img*/
             @media (min-width: 575.98px) {

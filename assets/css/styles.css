@@ -22,7 +22,7 @@ body {
     margin: 50px 0;
     /*Dynamic size to banner img*/ }
     body .banner .banner__item {
-      height: 400px;
+      height: 200px;
       width: auto; }
     @media (min-width: 575.98px) {
       body .banner .banner__item {
@@ -109,31 +109,31 @@ body {
       body table td .listInTable li {
         list-style-type: upper-latin; }
   body .footer {
-    background-image: linear-gradient(to top, #50b8e7, #dcf0fa);
-    color: white;
-    padding: 50px 50px; }
+    background-color: #1B354C;
+    padding: 50px 50px 0 50px;
+    margin-top: 100px;
+    color: #ffffff; }
+    body .footer .footer--title {
+      font-family: 'Hind Siliguri', sans-serif; }
     body .footer .footer--margin {
-      margin-top: 20px;
+      margin-top: 50px;
       margin-bottom: 0; }
-      body .footer .footer--margin .footer__form .footer__form--title {
-        color: #000000;
-        font-family: 'Hind Siliguri', sans-serif; }
-      body .footer .footer--margin .footer__form form {
-        margin: 20px 20px; }
-        body .footer .footer--margin .footer__form form .footer__form--field {
-          margin: 10px 0; }
-          body .footer .footer--margin .footer__form form .footer__form--field .footer__form--label {
-            color: #3465a4;
-            font-weight: 700; }
-          body .footer .footer--margin .footer__form form .footer__form--field .footer__form--input {
-            height: auto;
-            width: 100%; }
-          body .footer .footer--margin .footer__form form .footer__form--field .footer__form--textarea {
-            height: auto;
-            width: 100%; }
+      body .footer .footer--margin .footer__section {
+        color: #ffffff; }
+        body .footer .footer--margin .footer__section .footer__section--title {
+          font-weight: bold; }
+        body .footer .footer--margin .footer__section .footer__section--list {
+          padding-left: 20px;
+          list-style: square; }
+          body .footer .footer--margin .footer__section .footer__section--list .footer__section--rrss {
+            list-style: none !important; }
+          body .footer .footer--margin .footer__section .footer__section--list .footer__section--link {
+            color: #50b8e7; }
+      body .footer .footer--margin .footer__bottom {
+        color: #ffffff; }
       body .footer .footer--margin .footer__img {
         height: auto;
-        width: 300px;
+        width: 250px;
         margin: auto auto;
         /*Dynamic size to banner img*/ }
         @media (min-width: 575.98px) {

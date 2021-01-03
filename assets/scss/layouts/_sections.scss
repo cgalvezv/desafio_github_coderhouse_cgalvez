@@ -2,7 +2,7 @@
     padding: 10px 0;
     margin: $margin-between-sections;
     .banner__item {
-        @include sizes(400px, auto)
+        @include sizes(200px, auto)
     }
     /*Dynamic size to banner img*/
     @media (min-width: 575.98px) {

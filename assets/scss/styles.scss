@@ -1,10 +1,12 @@
 $body-color: #dcf0fa;
 $header-color: #b9e2f5;
-$footer-color: #50b8e7;
 $title-color: #000000;
 $subtitle-color: #49757f;
-$label-color: #3465a4;
+$label-color: #d4effc;
 $description-text-color: #173f5f;
+$footer-color: #1B354C;
+$footer-title-color: #ffffff;
+$footer-url-color: #50b8e7;
 $margin-between-sections: 50px 0;
 
 @mixin sizes($h, $w) {

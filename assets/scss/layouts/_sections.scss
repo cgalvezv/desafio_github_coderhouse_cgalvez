@@ -107,6 +107,10 @@
     display: flex;
     flex-flow: wrap column;
     margin: $margin-between-sections;
+    .map__wrapper {
+        margin-top: 10px;
+        height: 500px;
+    }
 }
 
 table {

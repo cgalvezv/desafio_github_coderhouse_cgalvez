@@ -4,10 +4,9 @@ body {
   body .header {
     background-color: #b9e2f5; }
     body .header .header__logo {
-      height: auto;
-      width: auto;
       margin-left: 10px;
-      height: 80px; }
+      height: 75px;
+      width: auto; }
     body .header .header__menuItem {
       text-transform: capitalize; }
     body .header .header__menuItem:hover {

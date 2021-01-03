@@ -1,9 +1,8 @@
 .header {
     background-color: $header-color;
     .header__logo {
-        @include sizes(auto, auto);
         margin-left: 10px;
-        height: 80px;
+        @include sizes(75px, auto);
     }
 
     .header__menuItem {

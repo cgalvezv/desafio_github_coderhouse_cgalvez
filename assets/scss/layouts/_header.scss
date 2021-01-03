@@ -1,7 +1,7 @@
 .header {
     background-color: $header-color;
     .header__logo {
-        @include sizes(auto, 100px);
+        @include sizes(auto, auto);
         margin-left: 10px;
         height: 80px;
     }

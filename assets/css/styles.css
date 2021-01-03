@@ -5,7 +5,7 @@ body {
     background-color: #b9e2f5; }
     body .header .header__logo {
       height: auto;
-      width: 100px;
+      width: auto;
       margin-left: 10px;
       height: 80px; }
     body .header .header__menuItem {
